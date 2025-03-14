@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Solicitare Permisiune</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to right, #667eea, #764ba2);
+        color: #333;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      .header img {
+        width: 100%;
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #1a202c;
+      }
+      .description {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      .btn {
+        background-color: #4a5568;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .btn:hover {
+        background-color: #2d3748;
+      }
+      @media (max-width: 768px) {
+        .container {
+          padding: 15px;
+        }
+        .title {
+          font-size: 20px;
+        }
+        .description {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="https://i.pinimg.com/736x/2b/56/47/2b5647e9efa0d5032a1b49e546997f0b.jpg" alt="Biliard Image" width="10px" height="10px"/>
+      </div>
+      <h1 class="title">Solicitare de Aprobare</h1>
+      <p class="description">
+        Bună ziua! Aș dori să vă solicit acordul pentru a participa la o
+        activitate recreativă împreună cu câteva prietene, mai exact o sesiune
+        de biliard. În cazul în care aprobarea voastră este acordată, mă angajez să
+        îndeplinesc toate obligațiile la revenirea mea, conform
+        cerințelor voastre. De asemenea, menționez că în weekend, respectiv
+        sâmbătă și duminică, voi rămâne acasă pentru a ne petrece timpul
+        împreună. Aș aprecia dacă ați putea analiza această cerere cu
+        bunăvoință și a-mi comunici decizia voastră finală. 
+        Rog sa primesc înapoi raspunsul printr-un mesaj pe viber
+      </p>
+      
+      <p id="response" class="mt-4"></p>
+    </div>
+
+   
+  </body>
+</html>
